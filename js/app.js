@@ -1,5 +1,5 @@
 // yolo App - Ionic & Firebase
-var firebaseUrl = "https://yolo-app.firebaseio.com";
+var firebaseUrl = "https://groupmesh.firebaseio.com";
 //test db https://reddel.firebaseio.com
 //https://yolo-app.firebaseio.com
 function onDeviceReady() {
