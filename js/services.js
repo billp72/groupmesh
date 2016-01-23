@@ -17,7 +17,7 @@ angular.module('mychat.services', ['firebase'])
     var processEmailRequest = function (data){
         $http({
             method: 'POST',
-            url: 'http://www.theopencircles.com/opencircles/emailToApplicant.php', 
+            url: 'http://www.groupmesh.co/email/emailToApplicant.php', 
             data: data
         })
         .success(function(data, status, headers, config)
